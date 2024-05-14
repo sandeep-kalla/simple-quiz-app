@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <audio id="introAudio" autoplay>
+        <source src="intro.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="app">
+        <div class="made-by">Made by Sandeep &copy;<span class="year"> 2024</span></div>
+        <h1>IPL Simple Quiz 🧠</h1>
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2>
+            <div class="answer-buttons">
+                <button class="btn" disabled>Answer 1</button>
+                <button class="btn" disabled>Answer 2</button>
+                <button class="btn" disabled>Answer 3</button>
+                <button class="btn" disabled>Answer 4</button>
+            </div>
+            <div id="score"></div>
+            <button id="next-btn">Next</button>
+            <div id="final-message" class="final-message" style="display: none;"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

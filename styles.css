@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", Arial;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 100%, 15%);
+}
+
+.made-by {
+  position: fixed;
+  top: 70px;
+  right: 40px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.copyright {
+  vertical-align: middle;
+}
+
+.year {
+  font-weight: 600;
+}
+
+.app {
+  background: white;
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.app h1 {
+  font-weight: 600;
+  color: #001ed0;
+  border-bottom: 1px solid #333;
+  padding-bottom: 30px;
+}
+
+.quiz {
+  padding: 20px 0;
+}
+
+.quiz h2,
+#score {
+  font-size: 20px;
+  color: #001ed0;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.btn {
+  background-color: white;
+  color: #222;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 10px 0px;
+  border-radius: 4px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #222;
+  color: white;
+  transition: all 0.3s;
+}
+
+#next-btn {
+  background-color: #001e4d;
+  color: white;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-correct {
+  border-color: lightgreen !important;
+  background-color: lightgreen;
+}
+
+.btn-incorrect {
+  border-color: rgb(244, 67, 67) !important;
+  background-color: rgb(244, 67, 67);
+}
+
+.final-message {
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.final-message-passed {
+  color: green;
+}
+
+.final-message-failed {
+  color: red;
+}
+
+/* Responsive styles */
+@media only screen and (min-width: 600px) {
+  .app {
+    max-width: 800px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .app {
+    max-width: 1000px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .app {
+    max-width: 1200px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .app {
+    max-width: 1400px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .app {
+    max-width: 1600px;
+  }
+}
+
+@media only screen and (min-width: 1680px) {
+  .app {
+    max-width: 1800px;
+  }
+}
